@@ -35,7 +35,7 @@ function Login() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </Form.Group>
-        <Button block size="lg" type="submit" disabled={!validateForm()}>
+        <Button className="ui button" style={{color:'white', backgroundColor: '#1261A0', borderRadius: 0}} type="submit" disabled={!validateForm()}>
           Login
         </Button>
       </Form>
